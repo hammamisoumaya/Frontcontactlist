@@ -14,7 +14,7 @@ const handeUpdat=async(idcon,values)=>{
 await updateContact(idcon,values)
 navigate('/list')
 }
-// lina partie jiben data unique pour usestate
+
 
 const getUniqueId=async(conatctid)=>{
 const data = await getUniqueUser(conatctid)
